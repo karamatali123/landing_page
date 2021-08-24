@@ -1,0 +1,47 @@
+.navbar-section{
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+.navbar-section .container{
+    width: 100%;
+    background-color: lightgrey;
+
+    
+}
+.navbar-section .container .navbar{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar-section .container .navbar a{
+    text-decoration: none;
+    margin: 10px;
+}
+.hero-section {
+    background-color: lightskyblue;
+    width: 100%;
+    z-index: -1;
+    
+}
+.hero-section .container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.hero-main-wrapper{
+   padding-top: 150px;
+   position: absolute ;
+}
+.hero-main-wrapper h1{
+    margin: 0;
+    background-color: yellow;
+    position: sticky;
+    top: 10px;
+}
+/* .hero-main-wrapper h2{
+
+} */
